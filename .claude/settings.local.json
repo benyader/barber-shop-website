@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($root=\"c:\\\\Users\\\\shmyn\\\\OneDrive\\\\Documents\\\\raw material\\\\projeсt of python\\\\web-demo\"; \\(Get-Content \"$root\\\\package.json\" -Raw\\); Write-Output \"=== DOCS ===\"; if\\(Test-Path \"$root\\\\node_modules\\\\next\\\\dist\\\\docs\"\\){ Get-ChildItem \"$root\\\\node_modules\\\\next\\\\dist\\\\docs\" -Recurse -File | Select-Object FullName })",
+      "PowerShell(npm run build)"
+    ]
+  }
+}
